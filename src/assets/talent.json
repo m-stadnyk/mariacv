@@ -1,0 +1,409 @@
+{
+  "address": {
+    "city": "Markham",
+    "province": "ON"
+  },
+  "firstName": "Mariia",
+  "lastName": "Stadnyk",
+  "roles": [
+    "Full Stack Software Engineer"
+  ],
+  "phone": "+16475409824",
+  "email": "m.stadnyk.ca@gmail.com",
+  "links": {
+    "linkedin": "https://linkedin.com/in/stmaryg",
+    "github": "https://github.com/m-stadnyk"
+  },
+  "summary": "Client-facing technical lead with extensive full-stack web services development experience in the Insurance, Education, and Human Resources domains, working enterprises as well as small businesses. Holding a Master’s degree in Computer Science with a specialization in Project Management, I proactively initiated system upgrades to meet industry standards and developed a knowledge-sharing process that led to a 30% reduction in troubleshooting time. Designed a web application from scratch, working closely with stakeholders. Have a proven track record of leading teams of up to 5 members, mentoring 3 developers, and performing lectures and workshops, fostering a continuous learning environment.",
+  "skills": [
+    {
+      "name": "Java",
+      "details": "8, 11, 17, 21",
+      "proficiency": 5,
+      "tag": "programming"
+    },
+    {
+      "name": "JavaScript",
+      "proficiency": 5,
+      "tag": "programming"
+    },
+    {
+      "name": "HTML",
+      "proficiency": 5,
+      "tag": "programming"
+    },
+    {
+      "name": "CSS",
+      "proficiency": 5,
+      "tag": "programming"
+    },
+    {
+      "name": "Python",
+      "proficiency": 5,
+      "tag": "programming"
+    },
+    {
+      "name": "SQL",
+      "proficiency": 5,
+      "tag": "programming"
+    },
+    {
+      "name": "Microservices",
+      "proficiency": 5,
+      "tag": "programming"
+    },
+    {
+      "name": "Monolith",
+      "proficiency": 5,
+      "tag": "programming"
+    },
+    {
+      "name": "Spring",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "Spring Boot",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "Hibernate",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "JUnit",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "React",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "Angular",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "NodeJS",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "JSON",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "RESTful",
+      "proficiency": 5,
+      "tag": "frameworks"
+    },
+    {
+      "name": "Git",
+      "proficiency": 5,
+      "tag": "tools"
+    },
+    {
+      "name": "Maven",
+      "proficiency": 5,
+      "tag": "tools"
+    },
+    {
+      "name": "Docker",
+      "proficiency": 4,
+      "tag": "tools"
+    },
+    {
+      "name": "Jira",
+      "proficiency": 5,
+      "tag": "tools"
+    },
+    {
+      "name": "Confluence",
+      "proficiency": 5,
+      "tag": "tools"
+    },
+    {
+      "name": "Jenkins",
+      "proficiency": 4,
+      "tag": "tools"
+    },
+    {
+      "name": "Bitbucket",
+      "proficiency": 5,
+      "tag": "tools"
+    },
+    {
+      "name": "Splunk",
+      "proficiency": 5,
+      "tag": "tools"
+    },
+    {
+      "name": "Dynatrace",
+      "proficiency": 4,
+      "tag": "tools"
+    },
+    {
+      "name": "Split",
+      "proficiency": 5,
+      "tag": "tools"
+    },
+    {
+      "name": "PostgreSQL",
+      "proficiency": 5,
+      "tag": "database"
+    },
+    {
+      "name": "MySQL",
+      "proficiency": 5,
+      "tag": "database"
+    },
+    {
+      "name": "MongoDB",
+      "proficiency": 4,
+      "tag": "database"
+    },
+    {
+      "name": "AWS",
+      "proficiency": 4,
+      "tag": "cloud"
+    },
+    {
+      "name": "Software Architecture",
+      "proficiency": 5,
+      "tag": "core competencies"
+    },
+    {
+      "name": "Technical Leadership",
+      "proficiency": 5,
+      "tag": "core competencies"
+    },
+    {
+      "name": "Deployment Management and CI/CD",
+      "proficiency": 5,
+      "tag": "core competencies"
+    },
+    {
+      "name": "Testing & Troubleshooting",
+      "proficiency": 5,
+      "tag": "core competencies"
+    },
+    {
+      "name": "People Management",
+      "proficiency": 5,
+      "tag": "core competencies"
+    },
+    {
+      "name": "Project Management",
+      "proficiency": 5,
+      "tag": "core competencies"
+    },
+    {
+      "name": "Training and Mentoring",
+      "proficiency": 5,
+      "tag": "core competencies"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Career Break",
+      "companyName": "Maternity leave",
+      "address": {
+        "province": "ON",
+        "country": "Canada"
+      },
+      "term": {
+        "start": {
+          "month": "March",
+          "year": 2024
+        }
+      },
+      "achievements": [
+        "Improved time management and multitasking abilities by combining babysitting, household responsibilities, and self-education, resulting in developing a personal project to automate household tasks."
+      ]
+    },
+    {
+      "role": "Senior Web Developer",
+      "companyName": "VK IT CONSULTING",
+      "details": "contract",
+      "address": {
+        "province": "ON",
+        "country": "Canada"
+      },
+      "term": {
+        "start": {
+          "month": "December",
+          "year": 2023
+        },
+        "end": {
+          "month": "March",
+          "year": 2024
+        }
+      },
+      "achievements": [
+        "Improved site observability by setting up the Splunk log processor, saving up to 1 hour in issue resolution time.",
+        "Implemented 16 features in 3 months based on client requests, resulting in a Net Promoter Score increase of 6%.",
+        "Increased test coverage from 40% to 55%, covering negative scenarios."
+      ]
+    },
+    {
+      "role": "Senior Full Stack Engineer",
+      "companyName": "NIX SOLUTIONS",
+      "details": "Education project",
+      "address": {
+        "city": "Budapest",
+        "country": "Hungary"
+      },
+      "term": {
+        "start": {
+          "month": "December",
+          "year": 2022
+        },
+        "end": {
+          "month": "December",
+          "year": 2023
+        }
+      },
+      "achievements": [
+        "Achieved product upgrades by updating Java from 8 to 11, Tomcat from 7 to 9, and Spring frameworks from 3 to 5 to match industry standards.",
+        "Optimized application efficiency by applying multithreading for third-party requests, creating and supporting feature flags, resulting in a general performance improvement of up to 50% in 4 backend calls.",
+        "Led and mentored a team of 4 developers through weekly motivational meetings and guidance, leading to the promotion of 2 mentees.",
+        "Conducted project onboarding by preparing materials and offering personal consultations, saving 2.5 weeks for 2 new members' integration."
+      ]
+    },
+    {
+      "role": "Senior Full Stack Engineer",
+      "companyName": "NIX SOLUTIONS (Human Resources Informational System (HRIS))",
+      "address": {
+        "city": "Kharkiv",
+        "country": "Ukraine"
+      },
+      "term": {
+        "start": {
+          "month": "May",
+          "year": 2022
+        },
+        "end": {
+          "month": "December",
+          "year": 2022
+        }
+      },
+      "achievements": [
+        "Designed application architecture from scratch, ensuring alignment with client needs, resulting in a proof of concept (PoC) delivered in 3 months.",
+        "Created a Bitbucket pipeline, establishing the CI/CD process for the project.",
+        "Led a team of 5 cross-functional members, completing 110 tickets with only 6% rollovers.",
+        "Conducted interviews with over 20 candidates and recruited 4 new talents for the department team.",
+        "Participated in knowledge-sharing events and conducted 5 lectures in the company’s educational streams for junior developers to foster a culture of continuous learning."
+      ]
+    },
+    {
+      "role": "Software Developer",
+      "companyName": "NIX SOLUTIONS (Insurance project)",
+      "address": {
+        "city": "Kharkiv",
+        "country": "Ukraine"
+      },
+      "term": {
+        "start": {
+          "month": "September",
+          "year": 2021
+        },
+        "end": {
+          "month": "May",
+          "year": 2022
+        }
+      },
+      "achievements": [
+        "Conducted research on the legacy codebase and collaborated with cross-functional teams, resulting in a feature list of 380 items for a comprehensive application renovation.",
+        "Mentored a junior developer by sharing knowledge and providing guidance, leading to,their promotion and new role achievement.",
+        "Presented at 2 company conferences and facilitated 2 public Java workshops to share expertise and engage with the community."
+      ]
+    },
+    {
+      "role": "Software Developer",
+      "companyName": "NIX SOLUTIONS (Insurance project)",
+      "address": {
+        "city": "Kharkiv",
+        "country": "Ukraine"
+      },
+      "term": {
+        "start": {
+          "month": "June",
+          "year": 2019
+        },
+        "end": {
+          "month": "September",
+          "year": 2021
+        }
+      },
+      "achievements": [
+        "Upgraded JUnit 4 to 5, transformed some tests to parameterized, covered negative scenarios, and applied parallel test execution, leading to a 65% decrease in test run time.",
+        "Performed daily code reviews and provided feedback in pull requests, resulting in improved code quality and a 10% decrease in sonar reports.",
+        "Researched to identify bottlenecks and performed back-end code refactoring, resulting in speeding up 8 backend calls by 30%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Course",
+      "fieldOfStudy": "Project Management - Certificate No65138050",
+      "institutionName": "IAMPM IT School",
+      "address": {
+        "city": "Kyiv",
+        "country": "Ukraine"
+      },
+      "term": {
+        "start": {
+          "month": "September",
+          "year": 2023
+        },
+        "end": {
+          "month": "November",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "degree": "Master's",
+      "fieldOfStudy": "Computer Science",
+      "institutionName": "National Technical University “Kharkiv Polytechnic Institute”",
+      "address": {
+        "city": "Kharkiv",
+        "country": "Ukraine"
+      },
+      "term": {
+        "start": {
+          "month": "August",
+          "year": 2020
+        },
+        "end": {
+          "month": "January",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "degree": "Bachelor's",
+      "fieldOfStudy": "Applied Linguistics",
+      "institutionName": "National Technical University “Kharkiv Polytechnic Institute”",
+      "address": {
+        "city": "Kharkiv",
+        "country": "Ukraine"
+      },
+      "term": {
+        "start": {
+          "month": "August",
+          "year": 2017
+        },
+        "end": {
+          "month": "July",
+          "year": 2020
+        }
+      }
+    }
+  ]
+}

@@ -12,8 +12,9 @@ import {validateResource} from "./Utils.js";
 
 
 function App() {
+    //TODO call validation after fetch from backend ???
     validateResource(talent)
-    //To change section order in nav and on the page just changing the order here.
+    //You can change section order in nav and on the page just changing the order here.
     const sections = [
         {id: 1, name: "sum", title: "Summary", content: <Summary summary={talent.summary}/>},
         {id: 2, name: "skill", title: "Skills", content: <Skills skills={talent.skills}/>},
