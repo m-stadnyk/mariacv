@@ -10,10 +10,13 @@ import {Summary} from "./components/sections/Summary.jsx";
 import talent from './assets/talent.json';
 import {validateResource} from "./Utils.js";
 
+function getTalent() {
+    return talent
+}
 
 function App() {
-    validateResource(talent)
-    //To change section order in nav and on the page just changing the order here.
+    validateResource(getTalent())
+    //To change section order in nav and on the page just change the order here.
     const sections = [
         {id: 1, name: "sum", title: "Summary", content: <Summary summary={talent.summary}/>},
         {id: 2, name: "skill", title: "Skills", content: <Skills skills={talent.skills}/>},
