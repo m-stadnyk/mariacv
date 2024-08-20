@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mariacv.ca/talent.schema.json",
+  "title": "Talent",
+  "definitions": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "province": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        }
+      }
+    },
+    "term": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "object",
+          "properties": {
+            "month": {
+              "type": "string",
+              "enum": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+              ]
+            },
+            "year": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "month",
+            "year"
+          ]
+        },
+        "end": {
+          "type": "object",
+          "properties": {
+            "month": {
+              "type": "string",
+              "enum": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+              ]
+            },
+            "year": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "required": [
+        "start"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "address": {
+      "$ref": "#/definitions/address"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "pattern": "^\\+?[1-9]\\d{1,14}$"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "linkedin": {
+          "type": "string",
+          "format": "uri"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri"
+        },
+        "other": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "details": {
+            "type": "string"
+          },
+          "proficiency": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "tag": {
+            "type": "string",
+            "enum": [
+              "core competencies",
+              "programming",
+              "frameworks",
+              "database",
+              "cloud",
+              "tools"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "proficiency",
+          "tag"
+        ]
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "companyName": {
+            "type": "string"
+          },
+          "details": {
+            "type": "string"
+          },
+          "address": {
+            "$ref": "#/definitions/address"
+          },
+          "term": {
+            "$ref": "#/definitions/term"
+          },
+          "achievements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "role",
+          "companyName",
+          "address",
+          "term"
+        ]
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": {
+            "type": "string",
+            "enum": [
+              "Associate's",
+              "Bachelor's",
+              "Master's",
+              "Doctorate",
+              "Course"
+            ]
+          },
+          "fieldOfStudy": {
+            "type": "string"
+          },
+          "institutionName": {
+            "type": "string"
+          },
+          "address": {
+            "$ref": "#/definitions/address"
+          },
+          "term": {
+            "$ref": "#/definitions/term"
+          }
+        },
+        "required": [
+          "degree",
+          "fieldOfStudy",
+          "institutionName",
+          "address",
+          "term"
+        ]
+      }
+    }
+  },
+  "required": [
+    "address",
+    "firstName",
+    "lastName",
+    "roles",
+    "phone",
+    "email",
+    "links",
+    "summary",
+    "skills",
+    "experience",
+    "education"
+  ]
+}
